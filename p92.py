@@ -1,0 +1,7 @@
+N,M,K = map(int, input().split())
+D = list(map(int,input().split()))
+D.sort()
+D.reverse()
+zero=(M//(K+1))*K+M%(K+1)
+one=(M//(K+1))
+print(D[0]*zero+D[1]*one)
