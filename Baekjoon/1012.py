@@ -1,4 +1,5 @@
 import sys
+sys.setrecursionlimit(10**6)
 n = int(sys.stdin.readline())
 m = 0
 gd=[]
